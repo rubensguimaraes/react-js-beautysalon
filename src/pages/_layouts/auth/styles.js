@@ -36,6 +36,14 @@ export const Content = styled.div`
         color: rgba(255, 255, 255, 0.7); /* Branco com 70% de opacidade */
       }
     }
+
+    span {
+      color: #fb6f91;
+      align-self: flex-start; /* Para não ficar no centro */
+      margin: 0 0 10px; /* Posiciona um pouco mais abaixo do Input */
+      font-weight: bold;
+    }
+
     button {
       margin: 5px 0 0;
       height: 44px; /* Tamanho do botão */
