@@ -39,3 +39,14 @@ export default function Header() {
     </Container>
   );
 }
+
+/*
+linhas 29 a 35
+            <img
+              src={
+                profile.avatar.url ||
+                `https://api.adorable.io/avatars/50/abott@adorable.png`
+              }
+              alt="Rubens Guimarães"
+            />
+*/
